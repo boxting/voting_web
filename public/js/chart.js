@@ -1,4 +1,4 @@
-fetch('http://localhost:9002/vote/broadcast')
+fetch('http://localhost:9000/blockchain')
     .then(response => {
         if(response.ok){
             return response.json();
@@ -7,10 +7,6 @@ fetch('http://localhost:9002/vote/broadcast')
     },networkError => console.log(networkError.message))
     .then(data => {
         console.log(data);
-
-
-        //document.getElementById("candidate1").style.width = "50%"; 
-
     });
 
 
