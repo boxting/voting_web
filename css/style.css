@@ -16,9 +16,10 @@ body{
     margin: 0 auto;
   }
   .card{
+    margin: 35px !important;
     position: relative;
     width: 300px;
-    height: 350px;
+    height: 400px;
     background: #fff;
     margin: 0 auto;
     border-radius: 4px;
@@ -59,7 +60,7 @@ body{
   
   .card:hover .imgBx
   {
-    bottom: 80px;
+    bottom: 120px;
   }
 
   .card .imgBx img{
@@ -76,8 +77,9 @@ body{
       left: 10px;
       right: 10px;
       bottom: 10px;
-      height: 60px;
+      height: 100px;
       text-align: center;
+      
   }
 
   .card .details h2{
@@ -96,3 +98,10 @@ body{
   display: block;
   margin-top: 5px;
    }
+
+  .btn-vote{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    margin-top: 10px !important;
+  }
+  
