@@ -1,5 +1,5 @@
 const btnSend = document.getElementById("1");
-const url = 'http://localhost:9002/vote/broadcast';
+const url = 'http://192.168.1.2:9002/vote/broadcast';
 const headers = new Headers({
     'Content-Type': 'application/json'
 });
