@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vot4me/voting_web/issues"
   },
-  "homepage": "https://github.com/vot4me/voting_web#readme"
+  "homepage": "https://github.com/vot4me/voting_web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
